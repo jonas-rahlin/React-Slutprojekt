@@ -1,0 +1,22 @@
+Build the Start Page:
+
+Create StartPage.js.
+Implement the Card component.
+Set up a simple layout to show available cards.
+Create the Create Card Page:
+
+Create CreateCardPage.js.
+Build the CardForm component.
+Integrate the form with state management.
+Implement the Preview Functionality:
+
+Update CreateCardPage.js to include a preview area that reflects user input.
+Test Navigation:
+
+Ensure routing between StartPage and CreateCardPage works correctly.
+Style the Components:
+
+Add CSS to improve the layout and visual appeal of both pages and components.
+
+Card Form Size Change
+Style Finish

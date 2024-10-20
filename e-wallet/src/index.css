@@ -1,0 +1,189 @@
+:root {
+  box-sizing: border-box; /* Apply border-box model */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #abd1cf; /* Background */
+  color: #34495e; /* Regular fonts */
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3e50;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Agdasima", sans-serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  height: 2rem;
+}
+
+.cardArticle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border: solid 1.5px rgb(57, 57, 57);
+  border-radius: 5px;
+  padding: 1rem;
+  color: black;
+  width: 300px;
+  height: 175px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card .container:first-of-type {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.card .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0rem;
+}
+
+.card img {
+  max-width: 25px;
+  max-height: 25px;
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card .holder {
+  margin-right: 1rem;
+
+  max-width: 125px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card .cvv {
+  font-size: 0.75rem;
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: right;
+  margin-top: 1.75rem;
+}
+
+.deleteCard {
+  margin: 1rem;
+}
+
+form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  background-color: #ffffff; /* Input field background */
+  border: 1px solid #bdc3c7; /* Input field border */
+  color: #34495e; /* Text color */
+  padding-left: 5px; /* Padding for input fields */
+  border-radius: 4px; /* Slightly rounded corners */
+  transition: border-color 0.3s; /* Smooth transition for focus effect */
+  width: 100%; /* Full width of the container */
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: #16a085; /* Focus border color */
+  outline: none; /* Remove default outline */
+}
+
+form label,
+form input,
+form select {
+  width: 100%;
+  height: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+}
+
+form label {
+  margin: 0.25rem;
+}
+
+form button {
+  margin: 0.5rem;
+}
+
+.addCard {
+  margin-top: 1rem;
+}
+
+.home {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.yellow {
+  background-color: #efd56a;
+}
+.red {
+  background-color: #f26b6b;
+}
+
+.green {
+  background-color: #7ec19a;
+}
